@@ -1,0 +1,174 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: visible;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: url(img/pwing.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    
+}
+.navbar-nav {
+    float: right;
+  }
+
+
+.navbar-nav li {
+   
+  display: inline-block;
+  margin-left: 20px; /* adjust the margin as needed */
+}
+
+   
+  
+  
+nav a img {
+    float: left;
+    
+    
+    height: 100px;
+    width: 140px; /* adjust the height as needed */
+    margin: 5px 0 5px 20px; /* adjust the margin as needed */
+  }
+.phone-icon {
+  display: inline-block;
+  margin-right: 5px;
+}  
+.clock-icon {
+    margin-right: 5px; /* Add some space between the icon and the time */
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  float: right; /* align the navigation links to the right */
+}
+
+
+  
+
+
+li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+.red { color: red; }
+.content{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+
+}
+.content h1{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+h1{
+    color: darkgrey;
+}
+.border-box {
+    border: 6px solid white;
+    border-top-color: red;
+    background-color:lightgrey;
+    padding: 10px;
+    
+    
+}
+ 
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+  
+.search-box {
+  margin-right: 10px;
+}
+
+.search-box input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+  
+  
+ /* nav{
+  background-color: transparent;
+    padding: 20% 0% 20% 68%;
+
+
+} 
+
+   */
+
+  
+
+    
+
+
+
+
+
+/* ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+
+}
+li{
+    float: left;
+} 
+/* li a{
+    display:block;
+    color: red;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+} */
+/* .content{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+
+}
+.content h1{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+h1{
+    color: aqua;
+}
+
+
+   */ 
